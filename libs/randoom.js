@@ -34,11 +34,11 @@ publish({
       Bot.sendMessage(err_msg);
     }
 
-    let random_int = rndInt(0, messages.length-1);
+    let randoom_int = rndInt(0, messages.length-1);
  
-    var b = ""+messages[random_int]+"" ;
+    var b = ""+messages[randoom_int]+"" ;
   },
 
-  randomInt: rndInt,
-  randomFloat: rndFloat
+  randoomInt: rndInt,
+  randoomFloat: rndFloat
 })
